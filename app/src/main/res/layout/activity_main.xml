@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E7E7EB"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+
+        <EditText
+            android:id="@+id/searchCity"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/ImageHome"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/edittextbg"
+            android:backgroundTintMode="add"
+            android:fontFamily="@font/montserrat"
+            android:hint="Enter City"
+            android:paddingStart="15dp" />
+
+        <ImageView
+            android:id="@+id/ImageHome"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/ic_undraw_weather_d9t2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/searchCity"
+            android:layout_marginTop="25dp">
+
+            <Button
+                android:id="@+id/getWeather"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/searchbutton"
+                android:elevation="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="GET"
+                android:textColor="#eee" />
+
+            <Button
+                android:id="@+id/clear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/searchbutton"
+                android:elevation="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="CLEAR"
+                android:textColor="#eee" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/sample"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ImageHome"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="-10dp"
+            android:fontFamily="@font/montserrat"
+            android:text="Get Current Weather"
+            android:textColor="#8D8D8D"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Hungry Coders Team"
+        android:textColor="#B28D8D8D"
+        android:textSize="12sp" />
+</RelativeLayout>

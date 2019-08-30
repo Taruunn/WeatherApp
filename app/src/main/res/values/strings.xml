@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="jaipur">Jaipur</string>
+    <string name="coma">,</string>
+    <string name="today">Today</string>
+    <string name="kmph">KMPH</string>
+    <string name="percentage">%</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="am">AM</string>
+    <string name="sunset">Sunset</string>
+    <string name="pm">PM</string>
+    <string name="position">Position</string>
+    <string name="lat">Lat</string>
+    <string name="lon">Lon</string>
+    <string name="back">Back</string>
+</resources>
